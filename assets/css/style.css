@@ -4,14 +4,44 @@
   box-sizing: border-box;
 }
 
-body {
+.container {
   font-family: Roboto,
     sans-serif;
   display: flex;
-  flex-direction: column;
 	align-items: center;
 	justify-content: center;
 	height: 100vh;
-	margin: 0;
-	overflow: hidden;
+  width: 100%;
+  background-color: #222;
+}
+
+.swiper {
+  width: 80%;
+  height: fit-content;
+}
+
+.slides img {
+  width: 100%;
+}
+
+.swipe-btn-next,
+.swipe-btn-prev {
+  cursor: pointer;
+  position: absolute;
+  top: 40%;
+  padding: 18px;
+  font-weight: bold;
+  color: white;
+  font-size: 28px;
+  transition: 0.7s ease;
+  border-radius: 0 4px 4px 0;
+  user-select: none;
+}
+
+.swipe-btn-next {
+  right: 1%;
+}
+
+.swipe-btn-prev {
+  left: 1%;
 }
