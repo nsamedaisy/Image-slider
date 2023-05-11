@@ -1,16 +1,49 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    
-    <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" /> -->
-
-    <link rel="stylesheet" href="./assets/css/style.css">
-    <title>Image Slider</title>
+  <link rel="stylesheet" href="./assets/css/style.css">
+  <title>Image Slider</title>
 </head>
 <body>
+  <div class="container">
+
+    <div class="swiper">
+
+      <div class="swipe-wrap">
+
+        <div class="slides"><img src="./assets/images/money.jpeg" alt="dollars"></div>
+
+        <div class="slides"><img src="./assets/images/💙💙.jpeg" alt="blue mercedes"></div>
+
+        <div class="slides"><img src="./assets/images/home-furniture.jpeg" alt="cute home"></div>
+
+        <div class="slides"><img src="./assets/images/keyboard.jpeg" alt="piano"></div>
+
+        <div class="slides"><img src="./assets/images/Global Travel _ L'Essenziale.jpeg" alt="passport"></div>
+
+        <div class="slides"><img src="./assets/images/G-Class.jpeg" alt="cute car"></div>
+
+        <div class="slides"><img src="./assets/images/gun.png" alt="gun"></div>
+
+        <div class="slides"><img src="./assets/images/ship.jpeg" alt="ship"></div>
+
+        <div class="slides"><img src="./assets/images/hennessy.jpeg" alt="hennessy"></div>
+      </div>
+
+        <div class="swipe-pagination"></div>
+
+        <div class="swipe-btn-prev"><a class="prev" onclick="plusSlides (-1)">&#10094;</a></div>
+
+        <div class="swipe-btn-next"><a clasmargins="next" onclick="plusSlides (1)">&#10095;</a></div>
+
+        <div class="current">
+          <span class="dot" onclick="currentSlides(1)"></span>
+          <span class="dot" onclick="currentSlides(2)"></span>
+          <span class="dot" onclick="currentSlides(3)"></span>
+        </div>
+        
+    </div>
+  </div>
     <script src="./script.js"></script>
 </body>
 </html>
