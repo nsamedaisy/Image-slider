@@ -5,9 +5,11 @@ function plusSlides (n) {
   showSlides(slideIndex += n)
 }
 
-function currentSlide (n) {
+function currentSlides (n) {
   showSlides(slideIndex = n)
 }
+
+console.log(plusSlides, currentSlides)
 
 function showSlides (n) {
   let i
